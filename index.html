@@ -49,10 +49,14 @@ ol {
   counter-reset: li;
 }
 
+ol > li:first-child {
+  border-top: 1px solid #bfc1c3;
+}
+
 ol > li {
   margin: 20mm;
   list-style: none;
-  border-top: 1px solid #bfc1c3;
+  border-bottom: 1px solid #bfc1c3;
   padding-top: 15mm;
   height: 68mm;
   page-break-inside: avoid;
